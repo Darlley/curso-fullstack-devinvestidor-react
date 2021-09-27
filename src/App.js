@@ -1,9 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import { Button } from "@material-ui/core";
 
 function App() {
   return (
-    <h1>Darlley</h1>
+    <div>
+      <Button variant="contained" color="primary">Darlley</Button>
+      <Button variant="contained" color="secondary">Darlley</Button>
+    </div>
   );
 }
 
