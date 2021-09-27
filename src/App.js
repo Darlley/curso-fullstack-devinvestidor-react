@@ -1,11 +1,9 @@
 import { Button } from "@material-ui/core";
+import MainRoutes from "./main.routes"
 
 function App() {
   return (
-    <div>
-      <Button variant="contained" color="primary">Darlley</Button>
-      <Button variant="contained" color="secondary">Darlley</Button>
-    </div>
+    <MainRoutes />
   );
 }
 
